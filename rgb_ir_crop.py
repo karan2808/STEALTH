@@ -29,3 +29,5 @@ for pair in img_pairs:
         # Read, crop and write the IR disparity image:
         ir_disp = cv.imread('IR_disp/'+str(pair[1])+'.tiff',cv.IMREAD_UNCHANGED)
         cv.imwrite('CROPPED/IR/'+ str(pair[1])+ '.tiff',ir_disp[98:421,84:513])
+
+#
