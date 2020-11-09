@@ -1,0 +1,6 @@
+left/1.tiff right/1.tiff disp/1.png
+left/4.tiff right/4.tiff disp/4.png
+left/2.tiff right/2.tiff disp/2.png
+left/7.tiff right/7.tiff disp/7.png
+left/3.tiff right/3.tiff disp/3.png
+left/6.tiff right/6.tiff disp/6.png

@@ -1,0 +1,17 @@
+All/left/110.png All/right/110.png All/disp/110.png
+All/left/150.png All/right/150.png All/disp/150.png
+All/left/10.png All/right/10.png All/disp/10.png
+All/left/130.png All/right/130.png All/disp/130.png
+All/left/80.png All/right/80.png All/disp/80.png
+All/left/50.png All/right/50.png All/disp/50.png
+All/left/40.png All/right/40.png All/disp/40.png
+All/left/120.png All/right/120.png All/disp/120.png
+All/left/140.png All/right/140.png All/disp/140.png
+All/left/30.png All/right/30.png All/disp/30.png
+All/left/20.png All/right/20.png All/disp/20.png
+All/left/100.png All/right/100.png All/disp/100.png
+All/left/60.png All/right/60.png All/disp/60.png
+All/left/170.png All/right/170.png All/disp/170.png
+All/left/90.png All/right/90.png All/disp/90.png
+All/left/70.png All/right/70.png All/disp/70.png
+All/left/160.png All/right/160.png All/disp/160.png

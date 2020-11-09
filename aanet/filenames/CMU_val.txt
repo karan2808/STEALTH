@@ -1,0 +1,2 @@
+left/1.tiff right/1.tiff disp/1.png
+left/4.tiff right/4.tiff disp/4.png
