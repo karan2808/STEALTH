@@ -1,4 +1,4 @@
-# STEALTH Stereo Analysis On Low Texture Thermal Images.
+# STEALTH Stereo Analysis Using Low Texture Thermal Images.
 
 Brief Introduction:
 
