@@ -40,4 +40,4 @@ python predict.py --crop_height=512 \
                   --kitti2015=1 \
                   --resume='./checkpoint/cmu_set_ckpt.pth'
                   
-Acknowledgements: Part of our code is adopted from previous works, AANet (https://github.com/haofeixu/aanet) and GANet (https://github.com/feihuzhang/GANet), which deal with RGB Images.
+Acknowledgements: Part of our code is adopted from previous works, AANet (https://github.com/haofeixu/aanet) and GANet (https://github.com/feihuzhang/GANet), which deal with RGB Images. We have used the CATS (A Color And Thermal Stereo Dataset, http://bigdatavision.org/CATS/) for training and evaluation.
