@@ -1,0 +1,5 @@
+# ninja log v5
+0	7428	1603578677772322826	/home/rtml/aditi/GANet/libs/sync_bn/build/temp.linux-x86_64-3.8/src/cpu/sync_bn.o	dcb29821c6d4dc44
+0	19048	1603578689392246747	/home/rtml/aditi/GANet/libs/sync_bn/build/temp.linux-x86_64-3.8/src/cpu/operator.o	1dafdb229e4c9ce2
+0	17806	1603578707500128211	/home/rtml/aditi/GANet/libs/sync_bn/build/temp.linux-x86_64-3.8/src/gpu/sync_bn_cuda.o	cbddd9e5e62cd99b
+0	19605	1603578709296116455	/home/rtml/aditi/GANet/libs/sync_bn/build/temp.linux-x86_64-3.8/src/gpu/operator.o	c711265df0e80794
