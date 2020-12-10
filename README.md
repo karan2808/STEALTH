@@ -3,7 +3,7 @@
 Brief Introduction:
 
 We tackle the problem of computing disparity or depth of objects in a scene using Infrared Images. As far as we know, this is the first repository to deal with disparity computation using Infrared Images. 
-We have selected GANet and AANet for this task as the baseline models.
+We have selected GANet and AANet for this task as the baseline models. Furthermore, we have implemented a modified PSMNet architecture with CLAHE pre-processing and a super resolution module as our final model. 
 
 Usage:
 
@@ -39,5 +39,15 @@ python predict.py --crop_height=512 \
                   --save_path='./result_cmu_set/' \
                   --kitti2015=1 \
                   --resume='./checkpoint/cmu_set_ckpt.pth'
+
+PSMNet Variants: To train any of the PSMNet variants, run the following command. (The PSMNet variants can be found in individual folders in the master branch). Replace the command-line arguments with appropriate values/filenames/paths. You can refer to the code for description of each argument.
+
+python train.py max_disp batch_size num_epochs learning_rate data_directory dataset_name model_save_path
+
+To test the model, run the following evaluation scipt.
+
+python eval.py max_disp batch_size data_dir dataset_name saved_model eval_path test_filenames
+
+For the PSMNet variants, we have also provided a Google Colab notebook file for your reference. 
                   
-Acknowledgements: Part of our code is adopted from previous works, AANet (https://github.com/haofeixu/aanet) and GANet (https://github.com/feihuzhang/GANet), which deal with RGB Images. We have used the CATS (A Color And Thermal Stereo Dataset, http://bigdatavision.org/CATS/) for training and evaluation.
+Acknowledgements: Part of our code is adopted from previous works, AANet (https://github.com/haofeixu/aanet), GANet (https://github.com/feihuzhang/GANet) and PSMNet(https://github.com/JiaRenChang/PSMNet), which deal with RGB Images. We have used the CATS (A Color And Thermal Stereo Dataset, http://bigdatavision.org/CATS/) for training and evaluation.
