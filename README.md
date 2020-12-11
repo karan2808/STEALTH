@@ -1,13 +1,13 @@
 # STEALTH Stereo Analysis Using Low Texture Thermal Images.
 
-Brief Introduction:
+**Brief Introduction:**
 
-![Arch diagram](Block Diagram.png)
+![Arch diagram](BlockDiagram.png)
 
 We tackle the problem of computing disparity or depth of objects in a scene using Infrared Images. As far as we know, this is the first repository to deal with disparity computation using Infrared Images. 
 We have selected GANet and AANet for this task as the baseline models. Furthermore, we have implemented a modified PSMNet architecture with CLAHE pre-processing and a super resolution module as our final model. 
 
-Usage:
+**Usage:**
 
 AANet: To train the model from the beginning, run the following command,
 
