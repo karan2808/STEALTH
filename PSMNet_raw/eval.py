@@ -22,7 +22,7 @@ if __name__ == "__main__":
 # Main Program:
 
 # Define StereoDatset objects for test set:
-test_set  = StereoDataset(data_dir = data_directory, dataset_name = dataset_name, mode = 'test')
+test_set  = StereoDataset(data_dir = data_dir, dataset_name = dataset_name, mode = 'test')
 
 # Loader argument dictionary:
 loader_args = dict(shuffle = False, batch_size = batch_size, num_workers = 6, pin_memory = True) if torch.cuda.is_available()\
